@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Section */
+.flex{
+    display: flex;
+}
+
+/* Head Nav Section */
+
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+}
+
+.nav-logo{
+    gap: 11px;
+}
+.nav-logo h2 {
+    font-style: bold;
+    font-size: 32px;
+ } 
+.nav-box{
+    gap: 32px;
+    font-style: bold;
+    font-size: 20px;
+}
+.btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: orange;
+    border-radius: 12px;
+}
+
+
