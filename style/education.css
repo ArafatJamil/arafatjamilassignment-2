@@ -45,4 +45,53 @@
     border-radius: 12px;
 }
 
+/* Hero kids Style */
+.kid-age-container{
+    max-width: 1158.61px;
+    max-height: 575px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 186px;
+    padding-right: 95.39px;
+}
+.kid-age-writting{
+    width: 640px;
+    height: 333px;
+}
+.kid-age-headline{
+
+    width: 640px;
+    height: 183px;
+    font-style: bold;
+    font-size: 3.5rem;
+    line-height: 61px;
+
+}
+#empower{
+    color: orange;
+    
+}
+#vision{
+    color: skyblue;
+}
+.kid-age-paragraph{
+    width: 640px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-hero-kid{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: black;
+
+}
+
+
 
