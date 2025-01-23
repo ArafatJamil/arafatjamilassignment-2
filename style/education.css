@@ -90,11 +90,11 @@
 }
 .kid-age-headline{
 
-    width: 640px;
-    height: 183px;
+    width: 40rem;
+    height: 11.44rem;
     font-style: bold;
     font-size: 3.5rem;
-    line-height: 61px;
+    line-height: 3.82rem;
 
 }
 #empower{
@@ -231,8 +231,8 @@
 
 .stories{
     max-width: 1440px;
-    max-height: 1018.02px;
-    background-image: url(bg.png) ,linear-gradient(#FFFFFF,#fad597 , #f9c66e );  
+    height: 1018.02px;
+    background-image: url(bg.png) ,linear-gradient(#fff9f9,#fad597 , #f8cf89 );  
     
     
 } 
@@ -299,7 +299,6 @@
 .stories-container{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-    gap: 5px;
     gap: 20px;
 }
 
@@ -382,12 +381,6 @@
 }
 
 
-
-
-
-
-
-
 /* Media Query */
 @media screen and (max-width: 576px) {
     .nav-box, .btn, .nav-container h2{
@@ -399,17 +392,57 @@
     }
     .nav-container{
         justify-content:space-between ;
-        width:100%;
+        border: 1px solid orange;
+    }
+
+    .kid-age-container{
+        
+        flex-direction: column;
+        text-align: center;
+        padding: 1.25rem;
+    }
+    .herokid-img {
+        order: 1; 
+        margin-bottom: 20px; 
+        width: 100%; 
+    }
+
+    .herokid-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .kid-age-writting {
+        order: 2; 
+        padding: 0 10px; 
+        
+    }
+    .kid-age-headline {
+        font-size: 24px; 
+        line-height: 1.4; 
+        margin-bottom: 15px; 
+        text-align: center;
+        /* font-weight: 700;  */
+    }
+
+    .kid-age-paragraph {
+        font-size: 16px; 
+        line-height: 1.6;
+        margin-bottom: 20px; 
+        text-align: center; 
+        padding: 0 15px; 
     }
     
-    /* .nav-container, .kid-age-container, .kid-age-writting, #empower, #vision{
-        display: flex;
+    
 
-        flex-direction: column;
+    
+    
+    main,footer{
+        display: none;
     }
-    .kid-age-writting img{
-        width: 75%;
-    }
+
+    
+    
     
 } 
 
